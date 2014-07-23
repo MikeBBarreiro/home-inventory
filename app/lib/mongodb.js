@@ -2,6 +2,8 @@
 
 var MongoClient = require('mongodb').MongoClient;
 
+
+
 function connect(name, cb){
   var url = 'mongodb://localhost/' + name;
   MongoClient.connect(url, function(err, db){
@@ -9,6 +11,9 @@ function connect(name, cb){
     cb();
   });
 }
+
+
+
 
 module.exports = connect;
 

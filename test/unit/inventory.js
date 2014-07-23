@@ -16,7 +16,6 @@ describe('Item', function(){
   });
 
 
-
   describe('Constructor', function(){
     it('Should create a new item', function(){
       var item = new Item('sofa', 'livingroom', 'june 4th 2003', 1, 2500);
